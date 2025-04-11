@@ -9,6 +9,15 @@ import {
   Tooltip,
 } from "recharts";
 
+
+type CustomDotProps = {
+  cx?: number;
+  cy?: number;
+  payload?: {
+    name?: string;
+    [key: string]: any;
+  };
+};
 const data = [
   { name: "Jan", loyal: 320, new: 250, unique: 300 },
   { name: "Feb", loyal: 330, new: 230, unique: 340 },
@@ -25,11 +34,11 @@ const data = [
 ];
 
 // Custom dot component for the marker on the New Customers line
-const CustomDot = (props:any) => {
-  const { cx, cy, payload } = props;
+const CustomDot = ({ cx, cy, payload }: CustomDotProps) => {
+
 
   // Only show the special dot for July
-  if (payload.name === "Jul") {
+  if (payload?.name === "Jul") {
     return (
       <g>
         {/* Red circle */}
