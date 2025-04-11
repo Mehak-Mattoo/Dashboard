@@ -26,7 +26,9 @@ const Sales: React.FC<SalesSummaryProps> = ({
     <div className="p-6 m-2 bg-white rounded-lg shadow-lg">
       <div className="flex justify-between items-center mb-6">
         <div>
-          <h1 className="text-lg font-bold text-indigo-900">Today's Sales</h1>
+          <h1 className="text-lg font-bold text-indigo-900">
+            Today&apos; Sales
+          </h1>
           <p className="text-sm text-gray-500">Sales Summary</p>
         </div>
         <button className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 bg-white border border-gray-400 rounded-lg hover:bg-gray-50">

@@ -21,7 +21,7 @@ const data = [
   { day: "Sunday", onlineSales: 20000, offlineSales: 11000 },
 ];
 
-const formatYAxis = (value:any) => {
+const formatYAxis = (value:number) => {
   if (value === 0) return "0";
   if (value === 5000) return "5k";
   if (value === 10000) return "10k";

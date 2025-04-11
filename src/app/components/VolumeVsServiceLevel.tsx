@@ -5,7 +5,7 @@ import {
   XAxis,
   YAxis,
   ResponsiveContainer,
-  Legend,
+
 } from "recharts";
 
 const data = [
