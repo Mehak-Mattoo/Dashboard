@@ -15,7 +15,7 @@ type CustomDotProps = {
   cy?: number;
   payload?: {
     name?: string;
-    [key: string]: any;
+
   };
 };
 const data = [
