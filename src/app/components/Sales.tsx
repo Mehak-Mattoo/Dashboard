@@ -26,8 +26,8 @@ const Sales: React.FC<SalesSummaryProps> = ({
     <div className="p-6 m-2 bg-white rounded-lg shadow-lg">
       <div className="flex justify-between items-center mb-6">
         <div>
-          <h1 className="text-lg font-bold text-indigo-900">
-            Today&apos; Sales
+          <h1 className="text-xl font-bold text-indigo-900">
+            Today&apos;s Sales
           </h1>
           <p className="text-sm text-gray-500">Sales Summary</p>
         </div>
@@ -86,7 +86,7 @@ const Sales: React.FC<SalesSummaryProps> = ({
                 fill="white"
                 stroke="currentColor"
                 strokeLinecap="round"
-                stroke-linejoin="round"
+                strokeLinejoin="round"
                 strokeWidth="1.5"
               >
                 <path d="M4 21.4V2.6a.6.6 0 0 1 .6-.6h11.652a.6.6 0 0 1 .424.176l3.148 3.148A.6.6 0 0 1 20 5.75V21.4a.6.6 0 0 1-.6.6H4.6a.6.6 0 0 1-.6-.6M8 10h8m-8 8h8m-8-4h4" />

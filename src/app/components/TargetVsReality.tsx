@@ -13,7 +13,7 @@ const data = [
 
 export default function TargetVsReality() {
   return (
-    <div className="bg-white rounded-xl p-2  shadow-lg max-w-md">
+    <div className="bg-white rounded-xl p-2  shadow-lg ">
       <h1 className="text-xl pt-6 font-bold text-indigo-900 mb-6">
         Target vs Reality
       </h1>

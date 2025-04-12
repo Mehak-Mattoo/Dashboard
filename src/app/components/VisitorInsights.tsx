@@ -63,12 +63,12 @@ const CustomDot = ({ cx, cy, payload }: CustomDotProps) => {
 
 export default function VisitorInsights() {
   return (
-    <div className="w-full p-6 bg-gray-50 rounded-lg shadow-lg m-2">
+    <div className="w-full p-6 bg-gray-50 rounded-lg shadow-lg ">
       <h1 className="text-xl font-bold text-indigo-900 mb-6">
         Visitor Insights
       </h1>
 
-      <div className="h-37">
+      <div className="h-35">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
             data={data}

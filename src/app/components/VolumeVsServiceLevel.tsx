@@ -42,7 +42,7 @@ const CustomLegend = () => {
 
 export default function VolumeVsServiceLevel() {
   return (
-    <div className="bg-white rounded-xl p-2 shadow-sm max-w-md">
+    <div className="bg-white rounded-xl p-2 shadow-sm ">
       <h1 className="text-xl font-bold text-indigo-900 mb-6">
         Volume vs Service Level
       </h1>

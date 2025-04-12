@@ -23,8 +23,8 @@ export default function Dashboard() {
       </div>
       <div>
         <DashboardHeader />
-        <div className="flex w-full">
-          <div className="w-2/3">
+        <div className="flex flex-col md:flex-row w-full">
+          <div className="w-full md:w-2/3">
             <Sales
               totalSales="$1k"
               totalSalesChange="+6% from yesterday"
@@ -36,29 +36,29 @@ export default function Dashboard() {
               newCustomersChange="6.5% from yesterday"
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full md:w-1/3">
             <VisitorInsights />
           </div>
         </div>
-        <div className="flex w-full space-x-3 mt-4">
-          <div className="w-2/4">
+        <div className="flex flex-col md:flex-row w-full space-x-3 mt-4">
+          <div className="w-full md:w-2/4">
             <RevenueChart />
           </div>
-          <div className="w-1/4">
+          <div className="w-full md:w-1/4">
             <CustomerSatisfactionChart />
           </div>
-          <div className="w-1/4">
+          <div className="w-full md:w-1/4">
             <TargetVsReality />
           </div>
         </div>
-        <div className="flex w-full mt-5 space-x-3 my-2">
-          <div className="w-2/4">
+        <div className="flex flex-col md:flex-row w-full mt-5 space-x-3 my-2">
+          <div className="w-full md:w-2/4">
             <TopProductsTable />
           </div>
-          <div className="w-1/4">
+          <div className="w-full md:w-1/4">
             <SalesMappingByCountry />
           </div>
-          <div className="w-1/4">
+          <div className="w-full md:w-1/4">
             <VolumeVsServiceLevel />
           </div>
         </div>

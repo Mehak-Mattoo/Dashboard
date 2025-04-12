@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SalesMappingByCountry() {
   return (
-    <div className="bg-white rounded-xl h-full p-2 shadow-sm max-w-3xl">
+    <div className="bg-white rounded-xl h-full p-2 shadow-sm ">
       <h1 className="text-xl font-bold text-indigo-900 mb-6">
         Sales Mapping by Country
       </h1>
